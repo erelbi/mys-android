@@ -1,0 +1,18 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_launcher
+drawable presplash
+id author
+id emptyText
+id icon
+id projectList
+id title
+layout chooser_item
+layout main
+layout project_chooser
+layout project_empty
+mipmap icon
+string app_name
+string presplash_color
+string private_version
+string urlScheme

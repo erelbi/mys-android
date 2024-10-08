@@ -1,0 +1,3 @@
+DEF JNIUS_PLATFORM = 'android'
+
+DEF JNIUS_CYTHON_3 = False
