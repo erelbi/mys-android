@@ -133,8 +133,9 @@ Uygulamadan bazı ekran görüntüleri:
 
 ## 📦 Build and Installation - Derleme ve Kurulum
 
-To build and run this project, make sure you have `buildozer` installed. Below are the instructions for installing Kivy and KivyMD using `buildozer`.
-Bu projeyi oluşturup çalıştırmak için `buildozer` kurulu olduğundan emin olun. Aşağıda `buildozer` kullanarak Kivy ve KivyMD kurulum talimatları verilmiştir.
+> To build and run this project, make sure you have `buildozer` installed. Below are the instructions for installing Kivy and KivyMD using `buildozer`.
+
+> Bu projeyi oluşturup çalıştırmak için `buildozer` kurulu olduğundan emin olun. Aşağıda `buildozer` kullanarak Kivy ve KivyMD kurulum talimatları verilmiştir.
 
 ### 📲 Installing Kivy - Kivy Kurulumu
 To install Kivy, run:
