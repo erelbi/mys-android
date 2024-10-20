@@ -950,18 +950,15 @@ class MainApp(MDApp):
     def perform_reset(self, dialog):
         cursor.execute("DELETE FROM customers")
         cursor.execute("DELETE FROM products")
-        cursor.execute("DELETE FROM sales_history")  # Satış geçmişini de sil
+        cursor.execute("DELETE FROM sales_history")  
         conn.commit()
         dialog.dismiss()
         self.show_popup("Başarılı", "Veritabanı sıfırlandı.")
 
 
-        # Müşteri ve ürün listelerini temizle
         self.clear_customer_list()
         self.clear_product_list()
 
-
-        # Ana ekrana dön
         self.root.current = 'main'
 
 
@@ -969,16 +966,16 @@ class MainApp(MDApp):
         self.root.current = 'main'
 
     def go_back_to_sales(self):
-        self.product_quantities.clear()  # Seçili ürünleri temizle
+        self.product_quantities.clear()  
         self.root.current = 'sales'
 
     def go_back_to_customer(self):
         self.root.current = 'customer'
-        self.load_customer_list()  # Müşteri listesini yenile
+        self.load_customer_list() 
 
     def go_back_to_product(self):
         self.root.current = 'product'
-        self.load_product_list()  # Ürün listesini yenile
+        self.load_product_list()  
 
 
     def build(self):
@@ -1452,6 +1449,7 @@ class MainApp(MDApp):
         product_screen.ids.product_date.text = ""
         product_screen.ids.product_price.text = ""
 
+
     def export_database(self):
         db_path = os.path.abspath('store.db')
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -1463,7 +1461,7 @@ class MainApp(MDApp):
                 export_dir = os.path.join(primary_external_storage_path(), 'Download')
                 export_path = os.path.join(export_dir, export_filename)
 
-                # Doğrudan okuma/yazma ile kopyalama işlemi
+                
                 with open(db_path, 'rb') as src, open(export_path, 'wb') as dst:
                     dst.write(src.read())
 
@@ -1473,7 +1471,7 @@ class MainApp(MDApp):
                 export_dir = os.path.expanduser('~')
                 export_path = os.path.join(export_dir, export_filename)
 
-                shutil.copy2(db_path, export_path)
+                shutil.copy2(db_path, export_path) #Burası Düzgün çalışmıyor. İzinler
                 self.show_popup("Başarılı", f"Veritabanı dışa aktarıldı:\n{export_path}")
                 self.share_file(export_path)
 
@@ -1484,16 +1482,14 @@ class MainApp(MDApp):
 
     def import_database(self):
         request_permissions([Permission.WRITE_EXTERNAL_STORAGE, Permission.READ_EXTERNAL_STORAGE])
-        global conn, cursor  # Global değişkenleri fonksiyonun başında tanımlayalım
+        global conn, cursor  
 
         if platform == 'android':
             from android.storage import primary_external_storage_path
             import_dir = os.path.join(primary_external_storage_path(), 'Download')
         else:
-            import_dir = os.path.expanduser('~')  # Kullanıcının ana dizini
-        
-        # Kullanıcıya dosya seçtirme işlemi burada yapılmalı
-        # Örnek olarak, en son oluşturulan yedek dosyasını alalım
+            import_dir = os.path.expanduser('~')  
+
         backup_files = [f for f in os.listdir(import_dir) if f.startswith("store_backup_") and f.endswith(".db")]
         if not backup_files:
             self.show_popup("Hata", "İçe aktarılacak yedek dosyası bulunamadı.")
@@ -1503,13 +1499,10 @@ class MainApp(MDApp):
         import_path = os.path.join(import_dir, latest_backup)
         
         try:
-            # Mevcut veritabanı bağlantısını kapat
             conn.close()
             
-            # Yeni veritabanı dosyasını kopyala
             shutil.copy2(import_path, 'store.db')
             
-            # Veritabanı bağlantısını yeniden aç
             conn = sqlite3.connect('store.db')
             cursor = conn.cursor()
             
