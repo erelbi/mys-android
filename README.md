@@ -126,3 +126,29 @@ Uygulamadan bazı ekran görüntüleri:
     <td><img src="img/9.png" width="200"></td>
   </tr>
 </table>
+
+
+
+---
+
+## 📦 Build and Installation - Derleme ve Kurulum
+
+To build and run this project, make sure you have `buildozer` installed. Below are the instructions for installing Kivy and KivyMD using `buildozer`.
+Bu projeyi oluşturup çalıştırmak için `buildozer` kurulu olduğundan emin olun. Aşağıda `buildozer` kullanarak Kivy ve KivyMD kurulum talimatları verilmiştir.
+
+### 📲 Installing Kivy - Kivy Kurulumu
+To install Kivy, run:
+```bash
+buildozer init
+buildozer -v android debug deploy run
+
+### 📲 Installing Kivy - Kivy Kurulumu
+
+To install Kivy, follow the instructions from the official guide:
+- [Kivy Installation Guide](https://kivy.org/doc/stable/gettingstarted/installation.html)
+
+### 🎨 Installing KivyMD - KivyMD Kurulumu
+
+To install KivyMD, check the official documentation:
+- [KivyMD Documentation](https://kivymd.readthedocs.io/en/latest/)
+
