@@ -39,6 +39,21 @@ To install and run the application, follow these steps:
 
 As this is an educational project, contributions are welcome! Feel free to fork the repository, suggest improvements, or report issues.
 
+## Screenshots
+
+Here are some screenshots from the application:
+
+1. ![Screenshot 1](img/1.png)
+2. ![Screenshot 2](img/2.png)
+3. ![Screenshot 3](img/3.png)
+4. ![Screenshot 4](img/4.png)
+5. ![Screenshot 5](img/5.png)
+6. ![Screenshot 6](img/6.png)
+7. ![Screenshot 7](img/7.png)
+8. ![Screenshot 8](img/8.png)
+9. ![Screenshot 9](img/9.png)
+10. ![Screenshot 10](img/10.png)
+
 ---
 
 # Mağaza Yönetim Sistemi
@@ -81,3 +96,19 @@ Uygulamayı kurmak ve çalıştırmak için aşağıdaki adımları izleyin:
 ## Katkı
 
 Bu proje eğitim amaçlı olduğundan, katkılara açıktır! Depoyu fork ederek geliştirme önerilerinizi iletebilir veya sorunları bildirebilirsiniz.
+
+
+## Ekran Görüntüleri
+
+Uygulamadan bazı ekran görüntüleri:
+
+1. ![Ekran Görüntüsü 1](img/1.png)
+2. ![Ekran Görüntüsü 2](img/2.png)
+3. ![Ekran Görüntüsü 3](img/3.png)
+4. ![Ekran Görüntüsü 4](img/4.png)
+5. ![Ekran Görüntüsü 5](img/5.png)
+6. ![Ekran Görüntüsü 6](img/6.png)
+7. ![Ekran Görüntüsü 7](img/7.png)
+8. ![Ekran Görüntüsü 8](img/8.png)
+9. ![Ekran Görüntüsü 9](img/9.png)
+10. ![Ekran Görüntüsü 10](img/10.png)
