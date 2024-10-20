@@ -43,16 +43,16 @@ As this is an educational project, contributions are welcome! Feel free to fork 
 
 Here are some screenshots from the application:
 
-1. ![Screenshot 1](img/1.png)
-2. ![Screenshot 2](img/2.png)
-3. ![Screenshot 3](img/3.png)
-4. ![Screenshot 4](img/4.png)
-5. ![Screenshot 5](img/5.png)
-6. ![Screenshot 6](img/6.png)
-7. ![Screenshot 7](img/7.png)
-8. ![Screenshot 8](img/8.png)
-9. ![Screenshot 9](img/9.png)
-10. ![Screenshot 10](img/10.png)
+1. <img src="img/1.png" width="200">
+2. <img src="img/2.png" width="200">
+3. <img src="img/3.png" width="200">
+4. <img src="img/4.png" width="200">
+5. <img src="img/5.png" width="200">
+6. <img src="img/6.png" width="200">
+7. <img src="img/7.png" width="200">
+8. <img src="img/8.png" width="200">
+9. <img src="img/9.png" width="200">
+10. <img src="img/10.png" width="200">
 
 ---
 
@@ -102,13 +102,13 @@ Bu proje eğitim amaçlı olduğundan, katkılara açıktır! Depoyu fork ederek
 
 Uygulamadan bazı ekran görüntüleri:
 
-1. ![Ekran Görüntüsü 1](img/1.png)
-2. ![Ekran Görüntüsü 2](img/2.png)
-3. ![Ekran Görüntüsü 3](img/3.png)
-4. ![Ekran Görüntüsü 4](img/4.png)
-5. ![Ekran Görüntüsü 5](img/5.png)
-6. ![Ekran Görüntüsü 6](img/6.png)
-7. ![Ekran Görüntüsü 7](img/7.png)
-8. ![Ekran Görüntüsü 8](img/8.png)
-9. ![Ekran Görüntüsü 9](img/9.png)
-10. ![Ekran Görüntüsü 10](img/10.png)
+1. <img src="img/1.png" width="200">
+2. <img src="img/2.png" width="200">
+3. <img src="img/3.png" width="200">
+4. <img src="img/4.png" width="200">
+5. <img src="img/5.png" width="200">
+6. <img src="img/6.png" width="200">
+7. <img src="img/7.png" width="200">
+8. <img src="img/8.png" width="200">
+9. <img src="img/9.png" width="200">
+10. <img src="img/10.png" width="200">
