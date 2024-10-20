@@ -182,7 +182,7 @@ CCASDEPMODE = depmode=gcc3
 CCASFLAGS = -target aarch64-linux-android21 -fomit-frame-pointer -march=armv8-a -fPIC
 CCDEPMODE = depmode=gcc3
 CFLAGS = -target aarch64-linux-android21 -fomit-frame-pointer -march=armv8-a -fPIC -Wall -fexceptions
-CPPFLAGS = -DANDROID -I/home/ergunbilsel/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/ergunbilsel/android_project/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/magazayonetim/arm64-v8a/include/python3.1
+CPPFLAGS = -DANDROID -I/home/ergunbilsel/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/ergunbilsel/android_project/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/mysapp/arm64-v8a/include/python3.1
 CSCOPE = cscope
 CTAGS = ctags
 CXX = /home/ergunbilsel/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -target aarch64-linux-android21 -fomit-frame-pointer -march=armv8-a -fPIC
@@ -213,7 +213,7 @@ INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 LD = /home/ergunbilsel/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/ld
-LDFLAGS =   -L/home/ergunbilsel/android_project/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/magazayonetim/arm64-v8a
+LDFLAGS =   -L/home/ergunbilsel/android_project/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/mysapp/arm64-v8a
 LIBOBJS = 
 LIBS = 
 LIBTOOL = $(SHELL) $(top_builddir)/libtool

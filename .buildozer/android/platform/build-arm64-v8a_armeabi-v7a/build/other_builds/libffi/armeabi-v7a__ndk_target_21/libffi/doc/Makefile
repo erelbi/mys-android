@@ -220,7 +220,7 @@ CCASDEPMODE = depmode=gcc3
 CCASFLAGS = -target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC
 CCDEPMODE = depmode=gcc3
 CFLAGS = -target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC -Wall -fexceptions
-CPPFLAGS = -DANDROID -I/home/ergunbilsel/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/ergunbilsel/android_project/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/magazayonetim/armeabi-v7a/include/python3.1
+CPPFLAGS = -DANDROID -I/home/ergunbilsel/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/ergunbilsel/android_project/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/mysapp/armeabi-v7a/include/python3.1
 CSCOPE = cscope
 CTAGS = ctags
 CXX = /home/ergunbilsel/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC
@@ -251,7 +251,7 @@ INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 LD = /home/ergunbilsel/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/ld
-LDFLAGS =   -L/home/ergunbilsel/android_project/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/magazayonetim/armeabi-v7a
+LDFLAGS =   -L/home/ergunbilsel/android_project/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/mysapp/armeabi-v7a
 LIBOBJS = 
 LIBS = 
 LIBTOOL = $(SHELL) $(top_builddir)/libtool

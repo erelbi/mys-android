@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Mağaza Yönetim Sistemi</string>
-    <string name="presplash_color">#000000</string>
-    <string name="private_version">c237f739ee4b6bdd4f12f69c10bd16df4bbcdd30</string>
-    <string name="urlScheme">kivy</string>
-</resources>
