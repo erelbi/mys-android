@@ -21,75 +21,11 @@ from kivymd.uix.textfield import MDTextField
 from kivy.storage.jsonstore import JsonStore
 from android.permissions import request_permissions, Permission
 
-
-
-
 ##DB##
 import os
 import shutil
 from datetime import datetime
 from kivy.utils import platform
-###
-
-Config.set('kivy', 'log_level', 'debug')
-
-conn = None
-cursor = None
-
-# SQLite veritabanı bağlantısı oluşturma
-def create_connection():
-    global conn, cursor
-    conn = sqlite3.connect('store.db')
-    cursor = conn.cursor()
-
-class IconListItem(OneLineIconListItem):
-    icon = StringProperty()
-
-    def __init__(self, **kwargs):
-        super().__init__(**kwargs)
-        self.add_widget(IconLeftWidget(icon=self.icon))
-
-create_connection()
-
-# Tablo oluşturma (müşteri ve ürün için)
-cursor.execute('''
-CREATE TABLE IF NOT EXISTS customers (
-    id INTEGER PRIMARY KEY,
-    name TEXT,
-    address TEXT,
-    contact TEXT
-)
-''')
-
-cursor.execute('''
-CREATE TABLE IF NOT EXISTS products (
-    id INTEGER PRIMARY KEY,
-    product_name TEXT,
-    stock INTEGER,
-    stock_date TEXT,
-    price REAL
-)
-''')
-conn.commit()
-
-from kivy.lang import Builder
-from kivymd.app import MDApp
-from kivy.uix.scrollview import ScrollView
-from kivy.core.window import Window
-from kivy.uix.screenmanager import ScreenManager, Screen
-from kivymd.uix.textfield import MDTextField
-from kivy.uix.boxlayout import BoxLayout
-from kivymd.uix.dialog import MDDialog
-from kivymd.uix.button import MDFlatButton, MDRaisedButton
-from kivymd.uix.list import OneLineListItem, TwoLineListItem, ThreeLineListItem, OneLineIconListItem, IconLeftWidget
-from kivy.utils import platform
-from kivymd.uix.list import MDList
-from kivy.properties import StringProperty
-import sqlite3
-from datetime import datetime
-from kivy.config import Config
-
-Config.set('kivy', 'log_level', 'debug')
 
 
 # SQLite veritabanı bağlantısı oluşturma
