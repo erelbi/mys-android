@@ -52,17 +52,12 @@ Here are some screenshots from the application:
   <tr>
     <td><img src="img/4.png" width="200"></td>
     <td><img src="img/5.png" width="200"></td>
-    <td><img src="img/6.png" width="200"></td>
+    <td><img src="img/10.png" width="200"></td>
   </tr>
   <tr>
     <td><img src="img/7.png" width="200"></td>
     <td><img src="img/8.png" width="200"></td>
     <td><img src="img/9.png" width="200"></td>
-  </tr>
-  <tr>
-    <td><img src="img/10.png" width="200"></td>
-    <td></td>
-    <td></td>
   </tr>
 </table>
 
@@ -123,16 +118,11 @@ Uygulamadan bazı ekran görüntüleri:
   <tr>
     <td><img src="img/4.png" width="200"></td>
     <td><img src="img/5.png" width="200"></td>
-    <td><img src="img/6.png" width="200"></td>
+     <td><img src="img/10.png" width="200"></td>
   </tr>
   <tr>
     <td><img src="img/7.png" width="200"></td>
     <td><img src="img/8.png" width="200"></td>
     <td><img src="img/9.png" width="200"></td>
-  </tr>
-  <tr>
-    <td><img src="img/10.png" width="200"></td>
-    <td></td>
-    <td></td>
   </tr>
 </table>
