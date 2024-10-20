@@ -43,16 +43,28 @@ As this is an educational project, contributions are welcome! Feel free to fork 
 
 Here are some screenshots from the application:
 
-1. <img src="img/1.png" width="200">
-2. <img src="img/2.png" width="200">
-3. <img src="img/3.png" width="200">
-4. <img src="img/4.png" width="200">
-5. <img src="img/5.png" width="200">
-6. <img src="img/6.png" width="200">
-7. <img src="img/7.png" width="200">
-8. <img src="img/8.png" width="200">
-9. <img src="img/9.png" width="200">
-10. <img src="img/10.png" width="200">
+<table>
+  <tr>
+    <td><img src="img/1.png" width="200"></td>
+    <td><img src="img/2.png" width="200"></td>
+    <td><img src="img/3.png" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="img/4.png" width="200"></td>
+    <td><img src="img/5.png" width="200"></td>
+    <td><img src="img/6.png" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="img/7.png" width="200"></td>
+    <td><img src="img/8.png" width="200"></td>
+    <td><img src="img/9.png" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="img/10.png" width="200"></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 ---
 
@@ -102,13 +114,25 @@ Bu proje eğitim amaçlı olduğundan, katkılara açıktır! Depoyu fork ederek
 
 Uygulamadan bazı ekran görüntüleri:
 
-1. <img src="img/1.png" width="200">
-2. <img src="img/2.png" width="200">
-3. <img src="img/3.png" width="200">
-4. <img src="img/4.png" width="200">
-5. <img src="img/5.png" width="200">
-6. <img src="img/6.png" width="200">
-7. <img src="img/7.png" width="200">
-8. <img src="img/8.png" width="200">
-9. <img src="img/9.png" width="200">
-10. <img src="img/10.png" width="200">
+<table>
+  <tr>
+    <td><img src="img/1.png" width="200"></td>
+    <td><img src="img/2.png" width="200"></td>
+    <td><img src="img/3.png" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="img/4.png" width="200"></td>
+    <td><img src="img/5.png" width="200"></td>
+    <td><img src="img/6.png" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="img/7.png" width="200"></td>
+    <td><img src="img/8.png" width="200"></td>
+    <td><img src="img/9.png" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="img/10.png" width="200"></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
