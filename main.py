@@ -46,11 +46,7 @@ class IconListItem(OneLineIconListItem):
 # SQLite veritabanı bağlantısı oluşturma
 conn = sqlite3.connect('store.db')
 cursor = conn.cursor()
-
-
-
     
-
 
 # Tablo oluşturma (müşteri ve ürün için)
 cursor.execute('''
