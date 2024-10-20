@@ -146,10 +146,10 @@ buildozer -v android debug deploy run
 ### 📲 Installing Kivy - Kivy Kurulumu
 
 To install Kivy, follow the instructions from the official guide:
-- [Kivy Installation Guide](https://kivy.org/doc/stable/gettingstarted/installation.html)
+[Kivy Installation Guide](https://kivy.org/doc/stable/gettingstarted/installation.html)
 
 ### 🎨 Installing KivyMD - KivyMD Kurulumu
 
 To install KivyMD, check the official documentation:
-- [KivyMD Documentation](https://kivymd.readthedocs.io/en/latest/)
+[KivyMD Documentation](https://kivymd.readthedocs.io/en/latest/)
 
